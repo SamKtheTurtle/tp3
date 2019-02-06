@@ -74,3 +74,24 @@
     monospace;
     border-radius: 80px;
   }
+
+  .buttonLike{
+    border-radius: 12px;
+    padding: 15px 32px;
+    margin: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    transition-duration: 0.4s;
+  }
+  
+  .buttonLike:hover {
+    background-color: #282c34;
+    color: white;
+  }
